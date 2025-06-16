@@ -352,3 +352,52 @@ else if(
     console.log("Quero meu dinheiro de volta");
 }
 
+//3 - Faça um codigo que diga se precisa colocar mais sal na comida, ou se o sal esta bom ou se a comida ficou muito salgada.
+
+//4 - Faça um codigo que instrua o usuario a fazer um bolo.
+
+var sal = "ms";
+
+if(sal == "fs"){
+    console.log("Precisa colocar mais sal");
+}else if(sal == "tbs"){
+    console.log("Esta bom de sal");
+}else if(sal == "ms"){
+    console.log("Ficou salgado");
+}
+//--------------------------------------------
+let açucar = "s";
+let ovo = "s";
+let chocolate = "n";
+let fermento = "n";
+let trigo = "n";
+let oleo = "n";
+let margarina = "s";
+let leite = "n";
+let nescau = "n";
+let leiteCondensado = "n";
+
+if(margarina == "n"){
+    console.log("Precisa derreter a margarina e colocar na bacia");
+}else if(margarina == "s"){
+    if(açucar == "n"){
+        console.log("adicione 2 xicaras de açucar");
+    }else if(açucar == "s"){
+        if(ovo == "n"){
+            console.log("adicione 4 ovos");
+        }else if(ovo == "s"){
+            console.log("misture tudo e faça um caldo");
+            if(leite =="n"){
+                console.log("adicione 1 xicara de leite");
+            }else if(leite == "s"){
+                if(oleo == "n"){
+                    console.log("ferva o oleo e adicione a mistura");
+                }else if(oleo == "s"){
+                    
+                }
+            }
+        }
+    }
+}
+
+
